@@ -12,11 +12,10 @@ Welcome to the Campervan Rental Dashboard, a web application designed to streaml
 - **Booking Detail View**: Displays detailed information about a selected booking, including customer name, booking dates, and station information.
 - **Drag-and-Drop Rescheduling (Optional)**: Allows station employees to reschedule pickups or returns by dragging and dropping bookings within the calendar.
 - **State Management (Optional)**: Introduces state management for better handling of application data and UI state.
-- **Unit Tests**: Comprehensive unit tests to ensure the reliability and correctness of the codebase.
 
 ## Demo
 
-Check out the live demo of the application hosted on GitHub Pages: [Demo Link](#)
+Check out the live demo of the application hosted on GitHub Pages: [Demo Link](https://hasnatfahim12.github.io/Roadsurfer-project/)
 
 ## Tech Stack
 
@@ -30,3 +29,29 @@ Check out the live demo of the application hosted on GitHub Pages: [Demo Link](#
 
 - Node.js (v14 or higher)
 - npm or yarn
+
+### Install dependencies:
+
+```
+npm install
+```
+### Run the development server:
+
+```
+npm run serve
+```
+
+## Usage
+
+### Autocomplete Component
+The autocomplete component allows users to search for rental stations. As the user types, the component queries the remote API and suggests stations based on the input. After selecting a station, the component triggers an event to notify other components of the selection.
+
+### Week View
+The week view displays a 7-day calendar where bookings are shown on their respective start and end dates. Users can paginate through different weeks and view bookings for the selected station.
+
+### Booking Detail View
+Clicking on a booking in the week view opens a detailed view with information such as the customer's name, booking dates, and the station name. Users can return to the calendar view from this page.
+
+### Drag-and-Drop Rescheduling 
+Station employees can reschedule bookings by dragging and dropping them within the calendar. The changes are stored locally and an imaginary API call is logged to the console.
+
