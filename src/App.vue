@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <DefaultLayout />    
+    <StandardLayout />
   </div>
 </template>
 
 <script>
-import DefaultLayout from './layouts/DefaultLayout.vue'
+import StandardLayout from './layouts/StandardLayout.vue'
+
 
 export default {
   name: 'App',
   components: {
-    DefaultLayout
+    StandardLayout
   }
 }
 </script>
