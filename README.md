@@ -15,13 +15,13 @@ Welcome to the Campervan Rental Dashboard, a web application designed to streaml
 
 ## Demo
 
-Check out the live demo of the application hosted on GitHub Pages: [Demo Link](https://hasnatfahim12.github.io/Roadsurfer-project/)
+Check out the live demo of the application hosted on GitHub Pages: [Demo Link](https://hasnatfahim12.github.io/Roadsurfer-project/). Click on SurferRoad to go the application.
 
 ## Tech Stack
 
 - **Framework**: Vue.js
-- **Styling**: TailwindCSS (recommended, but optional)
-- **State Management**: (Optional) Vuex or Pinia
+- **Styling**: TailwindCSS 
+- **State Management**: Pinia
 
 ## Setup
 
