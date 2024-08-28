@@ -6,17 +6,19 @@
         </p>
       </div>
       <div class=" overflow-scroll">
-          <router-view  :key="$route.fullPath" /> 
+        <RouterView :key="$route.fullPath" /> 
       </div>
     </div>
     
   </template>
     
   <script>
+  import { RouterView } from 'vue-router';
   
   export default {
-    name: 'DefaultLayout',
+    name: 'StandardLayout',
     components: { 
+      RouterView
     }
   
   }
